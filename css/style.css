@@ -1,0 +1,48 @@
+#kat {
+    width: 799px;
+    height: 815px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+#kat img {
+    position: absolute;
+}
+
+#bg {
+    top: 0;
+    left: 0;
+}
+
+#de-kat {
+    top: 480px;
+    left: 330px;
+    animation: up-down 4s infinite;
+}
+
+@keyframes up-down {
+    0% {
+        top: 480px; 
+    }
+    20% {
+        top: 200px; 
+    }
+    35% {
+        top: 480px;
+    }
+    100% {
+        top: 480px;
+    }
+}
+
+#hoed {
+    top: 443px;
+    left: 215px;
+}
+
+#onderkant {
+    bottom: 0;
+    left: 0;
+}
