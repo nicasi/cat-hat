@@ -46,3 +46,21 @@
     bottom: 0;
     left: 0;
 }
+
+#btn-launch {
+    position: relative;
+    z-index: 10;
+}
+
+#de-kat.launch {
+    animation: launch 10s both linear;
+}
+
+@keyframes launch {
+    0% {
+        top: 480px; 
+    }
+    100% {
+        top: -1200px;
+    }
+}

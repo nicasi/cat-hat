@@ -8,9 +8,25 @@
 <body>
     <div id="kat">
         <img id="bg" src="img/zonder-kat.png" alt="">
-        <img id="de-kat" src="img/kat.png" alt="">
+        <img id="de-kat" src="img/giphy.gif" alt="" width="399" height="1010">
         <img id="hoed" src="img/hoed.png" alt="">
         <img id="onderkant" src="img/onderkant.png" alt="">
+        <button id="btn-launch">launch</button>
     </div>
+
+    <script>
+
+        const btnLaunch = document.getElementById('btn-launch');
+        const cat = document.getElementById('de-kat');
+
+        const launchCat = () => {
+            cat.classList.add('launch');
+        }
+
+        btnLaunch.addEventListener('click', launchCat);
+
+        
+
+    </script>
 </body>
 </html>
